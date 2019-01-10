@@ -46,7 +46,7 @@ kramdown:
       start_line: 1
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "手持两把锟斤拷，口中疾呼烫烫烫。<br>脚踏千朵屯屯屯，笑看万物锘锘锘。"
+sidebar-about-description: "手持两把锟斤拷，<br>口中疾呼烫烫烫。<br>脚踏千朵屯屯屯，<br>笑看万物锘锘锘。"
 sidebar-avatar: /img/avatar-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
