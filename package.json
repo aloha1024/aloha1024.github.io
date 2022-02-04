@@ -1,28 +1,36 @@
 {
-    "name": "aloha-blog",
-    "title": "aloha Blog",
-    "author": "<admin@gmail.com>",
-    "version": "1.7.0",
-    "homepage": "http://aloha1024.github.io",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aloha1024/aloha1024.github.io"
-    },
-    "bugs": "https://github.com/aloha1024/aloha1024.github.io/issues",
-    "devDependencies": {
-        "grunt": "~1.3.0",
-        "grunt-contrib-less": "~0.11.4",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-banner": "~0.2.3",
-        "grunt-contrib-uglify": "~0.5.1"
-    },
-    "scripts": {
-        "preview": "cd _site; python -m SimpleHTTPServer 8020",
-        "py3view": "cd _site; python3 -m http.server 8020",
-        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
-        "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
-        "boil"   : "git push boilerplate boilerplate:master",
-        "push"   : "git push origin master --tag",
-        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
-    }
+  "name": "hexo-theme-next",
+  "version": "7.8.0",
+  "description": "Elegant and powerful theme for Hexo.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theme-next/hexo-theme-next.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "next"
+  ],
+  "author": "NexT <support@theme-next.org> (https://theme-next.org)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/theme-next/hexo-theme-next/issues"
+  },
+  "homepage": "https://theme-next.org",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-theme-next": "^1.1.4",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-shell": "^0.8.0",
+    "js-yaml": "^3.13.1",
+    "stylint": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.9.0"
+  }
 }
