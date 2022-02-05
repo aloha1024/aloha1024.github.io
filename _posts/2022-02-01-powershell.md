@@ -1,8 +1,9 @@
 ---
 title: powershell
 tags: tools
+excerpt_separator: <!--more-->
 ---
-
+<!--more-->
 # 1.powershell脚本特点
 
 在内存中运行 不需要写入磁盘
